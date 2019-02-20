@@ -27,8 +27,8 @@ class ruby::params {
         $rake_provider    = 'yum'
       }
       $bundler_ensure   = 'installed'
-      $bundler_package  = 'bundler'
-      $bundler_provider = 'gem'
+      $bundler_package  = 'rubygem-bundler'
+      $bundler_provider = 'yum'
     }
     'Archlinux': {
       $ruby_package     = 'ruby'
